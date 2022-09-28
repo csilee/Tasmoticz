@@ -1,10 +1,10 @@
 """
 <plugin 
     key="Tasmoticz" 
-    name="Autodiscovery of Tasmota Devices"
+    name="Tasmota eszközök autómatikus felderítése a Domoticzban"
     version="1.3.1"
     author="Joachim Banzhaf" 
-    externallink="https://github.com/joba-1/Tasmoticz">
+    externallink="https://github.com/csilee/Tasmoticz">
    
     <description>
         Plugin to discover and operate Tasmota devices through MQTT
