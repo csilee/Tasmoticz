@@ -224,24 +224,24 @@ def getSensorDevices(message):
     states = []
 
     typeDb = {
-        'Temperature':   {'Name': 'Temperatur',      'Unit': '°C',   'DomoType': 'Temperature'},
-        'Humidity':      {'Name': 'Feuchtigkeit',    'Unit': '%',    'DomoType': 'Humidity'},
-        'Pressure':      {'Name': 'Luftdruck',       'Unit': 'hPa',  'DomoType': 'Barometer'},
-        'Illuminance':   {'Name': 'Helligkeit',      'Unit': 'lux',  'DomoType': 'Illumination'},
-        'Distance':      {'Name': 'Abstand',         'Unit': 'mm ',  'DomoType': 'Distance'},
-        'UvLevel':       {'Name': 'UV Level',        'Unit': 'raw',  'DomoType': 'Custom'},
+        'Temperature':   {'Name': 'Hőfok',      'Unit': '°C',   'DomoType': 'Temperature'},
+        'Humidity':      {'Name': 'Páratartalom',    'Unit': '%',    'DomoType': 'Humidity'},
+        'Pressure':      {'Name': 'Légnyomás',       'Unit': 'hPa',  'DomoType': 'Barometer'},
+        'Illuminance':   {'Name': 'Fényerő',      'Unit': 'lux',  'DomoType': 'Illumination'},
+        'Distance':      {'Name': 'Távolság',         'Unit': 'mm ',  'DomoType': 'Distance'},
+        'UvLevel':       {'Name': 'UV szint',        'Unit': 'raw',  'DomoType': 'Custom'},
         'UvIndex':       {'Name': 'UV Index',        'Unit': 'UVI',  'DomoType': 'Custom'},
-        'UvPower':       {'Name': 'UV Leistung',     'Unit': 'W/m²', 'DomoType': 'Custom'},
-        'Total':         {'Name': 'Gesamt',          'Unit': 'kWh',  'DomoType': 'Custom'},
-        'Yesterday':     {'Name': 'Gestern',         'Unit': 'kWh',  'DomoType': 'Custom'},
-        'Today':         {'Name': 'Heute',           'Unit': 'kWh',  'DomoType': 'Custom'},
-        'Power':         {'Name': 'Leistung',        'Unit': 'kW',   'DomoType': 'Usage'},
-        'ApparentPower': {'Name': 'Scheinleistung',  'Unit': 'kW',   'DomoType': 'Usage'},
-        'ReactivePower': {'Name': 'Blindleistung',   'Unit': 'kW',   'DomoType': 'Usage'},
-        'Factor':        {'Name': 'Leistungsfaktor', 'Unit': 'W/VA', 'DomoType': 'Custom'},
-        'Frequency':     {'Name': 'Frequenz',        'Unit': 'Hz',   'DomoType': 'Custom'},
-        'Voltage':       {'Name': 'Spannung',        'Unit': 'V',    'DomoType': 'Voltage'},
-        'Current':       {'Name': 'Strom',           'Unit': 'A',    'DomoType': 'Current (Single)'}
+        'UvPower':       {'Name': 'UV erő',     'Unit': 'W/m²', 'DomoType': 'Custom'},
+        'Total':         {'Name': 'Teljes',          'Unit': 'kWh',  'DomoType': 'Custom'},
+        'Yesterday':     {'Name': 'Tegnap',         'Unit': 'kWh',  'DomoType': 'Custom'},
+        'Today':         {'Name': 'Ma',           'Unit': 'kWh',  'DomoType': 'Custom'},
+        'Power':         {'Name': 'Teljesitmény',        'Unit': 'kW',   'DomoType': 'Usage'},
+        'ApparentPower': {'Name': 'Látszolagos teljesitmény',  'Unit': 'kW',   'DomoType': 'Usage'},
+        'ReactivePower': {'Name': 'Meddő teljesitmény',   'Unit': 'kW',   'DomoType': 'Usage'},
+        'Factor':        {'Name': 'Teljesitmény tényező', 'Unit': 'W/VA', 'DomoType': 'Custom'},
+        'Frequency':     {'Name': 'Frekvencia',        'Unit': 'Hz',   'DomoType': 'Custom'},
+        'Voltage':       {'Name': 'Feszültség',        'Unit': 'V',    'DomoType': 'Voltage'},
+        'Current':       {'Name': 'Jelenlegi',           'Unit': 'A',    'DomoType': 'Current (Single)'}
     }
 
     if isinstance(message, collections.Mapping):
