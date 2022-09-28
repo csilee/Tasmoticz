@@ -1,6 +1,6 @@
 # Tasmoticz
 
-## Autodiscovery of Tasmota Devices for Domoticz
+## Tasmota eszközök autómatikus felderítése a Domoticzban
 Magarított verzió
 
 ## Autodiscovery of Tasmota Devices for Domoticz
