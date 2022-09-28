@@ -252,7 +252,7 @@ def getSensorDevices(message):
                         desc = typeDb[type].copy()
                         desc['Sensor'] = sensor
                         if sensor == 'ENERGY':
-                            desc['Sensor'] = 'Energie'
+                            desc['Sensor'] = 'Energia'
                         states.append((sensor, type, value, desc))
 
     return states
