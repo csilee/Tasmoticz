@@ -27,7 +27,7 @@ Setup and run MQTT broker, e.g. [Mosquitto](https://mosquitto.org/) and an MQTT 
 1. Clone this repository into your domoticz plugins folder (or just put the *.py files in a Tasmoticz folder there) 
 ```
 cd domoticz/plugins
-git clone https://github.com/joba-1/Tasmoticz.git
+git clone https://github.com/csilee/Tasmoticz.git
 ```
 2. Restart domoticz
 3. Go to "Hardware" page and add new item with type "Autodiscovery of Tasmota Devices" and activate it
