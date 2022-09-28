@@ -1,6 +1,9 @@
 # Tasmoticz
 
 ## Autodiscovery of Tasmota Devices for Domoticz
+Magarított verzió
+
+## Autodiscovery of Tasmota Devices for Domoticz
 
 Python plugin for autodetecting ESP8266 devices with [Tasmota firmware](https://github.com/arendst/Tasmota) in [Domoticz Homeautomation](https://www.domoticz.com/).
 
